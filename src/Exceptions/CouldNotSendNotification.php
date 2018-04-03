@@ -9,7 +9,7 @@ class CouldNotSendNotification extends \Exception
         return new static("Descriptive error message.");
     }
     
-    public static function invalidReceiver($response)
+    public static function invalidReceiver()
     {
         return new static("Descriptive error message.");
     }
